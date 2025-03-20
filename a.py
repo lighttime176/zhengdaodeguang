@@ -89,7 +89,7 @@ def main():
 
     if "手机" in text:
         logger.info(f'账号：{qq}, 密码：{password}')
-        tab.get_screenshot(path=r"./test_browser_page.png", full_page=True)
+        tab.get_screenshot(path=r"./pagea.png", full_page=True)
     else:
         logger.info("字符串不包含 '验证码'，程序退出")
         exit()
