@@ -93,5 +93,5 @@ def main():
     else:
         logger.info("字符串不包含 '验证码'，程序退出")
         exit()
-for i in range(10):
+for i in range(200):
     main()
